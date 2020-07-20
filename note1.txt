@@ -1,0 +1,10 @@
+Pertama saya arahkan ke D:
+karena folder xampp saya ada di D
+setelah masukan command cd Coding/xampp/htdocs
+foldernya disesuaikan
+kemudian buat project baru dengan command dibawah
+composer create-project --prefer-dist laravel/laravel
+jika sudah selesai download masukan command dibawah
+cd install-laravel
+kemudian masukan command dibawah untuk mendapatkan alamat localhost untuk memastikan bahwa projectnya berhasil dibuat
+php artisan serve 
